@@ -32,12 +32,48 @@
                                     <action selector="doCoreDataCheck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FFj-ez-VAh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mww-lu-74x">
+                                <rect key="frame" x="-0.5" y="95" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="批量插入"/>
+                                <connections>
+                                    <action selector="doBatchInsert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0T0-2h-t9O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBa-d6-auG">
+                                <rect key="frame" x="-0.5" y="140" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="批量更新"/>
+                                <connections>
+                                    <action selector="doBatchUpdate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fhv-EC-aht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AA5-KT-6RO">
+                                <rect key="frame" x="-0.5" y="185" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="批量删除"/>
+                                <connections>
+                                    <action selector="doBatchDelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQ3-oG-UOn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="thN-VJ-8Ck" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="65x-53-AfW"/>
+                            <constraint firstItem="mww-lu-74x" firstAttribute="top" secondItem="thN-VJ-8Ck" secondAttribute="bottom" constant="15" id="6OR-Yo-LUG"/>
                             <constraint firstItem="thN-VJ-8Ck" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="BlC-UY-xMW"/>
+                            <constraint firstItem="AA5-KT-6RO" firstAttribute="top" secondItem="VBa-d6-auG" secondAttribute="bottom" constant="15" id="Dvt-fm-Am7"/>
+                            <constraint firstItem="AA5-KT-6RO" firstAttribute="centerX" secondItem="VBa-d6-auG" secondAttribute="centerX" id="FJh-XL-r55"/>
+                            <constraint firstItem="mww-lu-74x" firstAttribute="height" secondItem="thN-VJ-8Ck" secondAttribute="height" id="GZn-3H-upX"/>
+                            <constraint firstItem="VBa-d6-auG" firstAttribute="height" secondItem="mww-lu-74x" secondAttribute="height" id="Gnl-Cs-scr"/>
+                            <constraint firstItem="AA5-KT-6RO" firstAttribute="height" secondItem="VBa-d6-auG" secondAttribute="height" id="QLI-RQ-z0Z"/>
+                            <constraint firstItem="VBa-d6-auG" firstAttribute="centerX" secondItem="mww-lu-74x" secondAttribute="centerX" id="Yyv-uz-cCf"/>
                             <constraint firstItem="thN-VJ-8Ck" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="ZDH-Fj-S5j"/>
+                            <constraint firstItem="AA5-KT-6RO" firstAttribute="width" secondItem="VBa-d6-auG" secondAttribute="width" id="dWZ-5C-iwB"/>
+                            <constraint firstItem="VBa-d6-auG" firstAttribute="width" secondItem="mww-lu-74x" secondAttribute="width" id="kTi-CE-K5X"/>
+                            <constraint firstItem="mww-lu-74x" firstAttribute="width" secondItem="thN-VJ-8Ck" secondAttribute="width" id="oyM-6K-GRY"/>
+                            <constraint firstItem="VBa-d6-auG" firstAttribute="top" secondItem="mww-lu-74x" secondAttribute="bottom" constant="15" id="paV-Lj-mHU"/>
+                            <constraint firstItem="mww-lu-74x" firstAttribute="centerX" secondItem="thN-VJ-8Ck" secondAttribute="centerX" id="xyr-jg-OaS"/>
                         </constraints>
                     </view>
                 </viewController>
