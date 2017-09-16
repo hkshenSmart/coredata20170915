@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
 @interface ClientManage : NSObject
+
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+
++ (instancetype)singletonInstance;
 
 @end

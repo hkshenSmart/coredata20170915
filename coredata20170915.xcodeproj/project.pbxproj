@@ -16,6 +16,11 @@
 		D7DDEAAB1F6B5AD2000BD807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DDEAA91F6B5AD2000BD807 /* LaunchScreen.storyboard */; };
 		D7DDEAB61F6B5AD2000BD807 /* coredata20170915Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDEAB51F6B5AD2000BD807 /* coredata20170915Tests.m */; };
 		D7DDEAC11F6B5AD2000BD807 /* coredata20170915UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDEAC01F6B5AD2000BD807 /* coredata20170915UITests.m */; };
+		D7DDEAD61F6B6C55000BD807 /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDEACF1F6B6C55000BD807 /* Person+CoreDataClass.m */; };
+		D7DDEAD71F6B6C55000BD807 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDEAD11F6B6C55000BD807 /* Person+CoreDataProperties.m */; };
+		D7DDEAD81F6B6C55000BD807 /* Card+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDEAD31F6B6C55000BD807 /* Card+CoreDataClass.m */; };
+		D7DDEAD91F6B6C55000BD807 /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDEAD51F6B6C55000BD807 /* Card+CoreDataProperties.m */; };
+		D7DDEADC1F6B6DEE000BD807 /* ClientManage.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DDEADB1F6B6DEE000BD807 /* ClientManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		D7DDEABC1F6B5AD2000BD807 /* coredata20170915UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coredata20170915UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DDEAC01F6B5AD2000BD807 /* coredata20170915UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coredata20170915UITests.m; sourceTree = "<group>"; };
 		D7DDEAC21F6B5AD2000BD807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DDEACE1F6B6C55000BD807 /* Person+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		D7DDEACF1F6B6C55000BD807 /* Person+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		D7DDEAD01F6B6C55000BD807 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D7DDEAD11F6B6C55000BD807 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D7DDEAD21F6B6C55000BD807 /* Card+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataClass.h"; sourceTree = "<group>"; };
+		D7DDEAD31F6B6C55000BD807 /* Card+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataClass.m"; sourceTree = "<group>"; };
+		D7DDEAD41F6B6C55000BD807 /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D7DDEAD51F6B6C55000BD807 /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D7DDEADA1F6B6DEE000BD807 /* ClientManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientManage.h; sourceTree = "<group>"; };
+		D7DDEADB1F6B6DEE000BD807 /* ClientManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientManage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,14 @@
 		D7DDEA971F6B5AD2000BD807 /* coredata20170915 */ = {
 			isa = PBXGroup;
 			children = (
+				D7DDEACE1F6B6C55000BD807 /* Person+CoreDataClass.h */,
+				D7DDEACF1F6B6C55000BD807 /* Person+CoreDataClass.m */,
+				D7DDEAD01F6B6C55000BD807 /* Person+CoreDataProperties.h */,
+				D7DDEAD11F6B6C55000BD807 /* Person+CoreDataProperties.m */,
+				D7DDEAD21F6B6C55000BD807 /* Card+CoreDataClass.h */,
+				D7DDEAD31F6B6C55000BD807 /* Card+CoreDataClass.m */,
+				D7DDEAD41F6B6C55000BD807 /* Card+CoreDataProperties.h */,
+				D7DDEAD51F6B6C55000BD807 /* Card+CoreDataProperties.m */,
 				D7DDEA9B1F6B5AD2000BD807 /* AppDelegate.h */,
 				D7DDEA9C1F6B5AD2000BD807 /* AppDelegate.m */,
 				D7DDEA9E1F6B5AD2000BD807 /* ViewController.h */,
@@ -113,6 +136,8 @@
 				D7DDEAAC1F6B5AD2000BD807 /* Info.plist */,
 				D7DDEAA41F6B5AD2000BD807 /* coredata20170915.xcdatamodeld */,
 				D7DDEA981F6B5AD2000BD807 /* Supporting Files */,
+				D7DDEADA1F6B6DEE000BD807 /* ClientManage.h */,
+				D7DDEADB1F6B6DEE000BD807 /* ClientManage.m */,
 			);
 			path = coredata20170915;
 			sourceTree = "<group>";
@@ -280,9 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DDEAA01F6B5AD2000BD807 /* ViewController.m in Sources */,
+				D7DDEAD91F6B6C55000BD807 /* Card+CoreDataProperties.m in Sources */,
 				D7DDEAA61F6B5AD2000BD807 /* coredata20170915.xcdatamodeld in Sources */,
 				D7DDEA9D1F6B5AD2000BD807 /* AppDelegate.m in Sources */,
+				D7DDEAD81F6B6C55000BD807 /* Card+CoreDataClass.m in Sources */,
+				D7DDEADC1F6B6DEE000BD807 /* ClientManage.m in Sources */,
 				D7DDEA9A1F6B5AD2000BD807 /* main.m in Sources */,
+				D7DDEAD71F6B6C55000BD807 /* Person+CoreDataProperties.m in Sources */,
+				D7DDEAD61F6B6C55000BD807 /* Person+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

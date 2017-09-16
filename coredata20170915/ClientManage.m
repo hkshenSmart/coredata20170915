@@ -8,6 +8,26 @@
 
 #import "ClientManage.h"
 
+static ClientManage *clientManage = nil;
+
 @implementation ClientManage
+
++ (instancetype)singletonInstance {
+    
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        if (clientManage == nil) {
+//            clientManage = [[ClientManage alloc] init];
+//        }
+//    });
+//    return clientManage;
+    
+    @synchronized (self) {
+        if (clientManage == nil) {
+            clientManage = [[ClientManage alloc] init];
+        }
+        return clientManage;
+    }
+}
 
 @end
